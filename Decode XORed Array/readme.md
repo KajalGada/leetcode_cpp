@@ -1,0 +1,1 @@
+XOR in C++ is ^
