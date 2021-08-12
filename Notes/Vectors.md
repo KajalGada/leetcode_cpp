@@ -51,7 +51,12 @@ std::max_element(vec.begin(), vec.end());
 ```
 
 
+Sorting vector
 
+```
+vector<int> nums;
+sort (nums.begin(), nums.end());
+```
 
 
 
