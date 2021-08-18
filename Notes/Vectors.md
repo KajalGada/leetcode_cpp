@@ -58,7 +58,19 @@ vector<int> nums;
 sort (nums.begin(), nums.end());
 ```
 
+Find element in vector
 
+```
+vector<int> nums = {1, 2, 3, 4, 1};
+auto it = find(nums.begin(), nums.end(), 3);
+if (it != nums.end())   // end means not found!
+{
+  int ind = int(it - nums.begin());
+}
+
+auto it2 = find(it+1, nums.end(), 1); // Finding number after a particular location. Good for finding duplicate.
+
+```
 
 
 
