@@ -10,7 +10,7 @@ public:
         }
         
         bool res = true;
-        int s_map[128] = {0};
+        int s_map[128] = {0};  // Braced initialization ensures all are zero.
         int t_map[128] = {0};
         
         for (int ind = 0; ind < s_size; ++ind)
@@ -20,7 +20,7 @@ public:
                 res = false;
                 break;
             }
-            s_map[s[ind]] = ind + 1;
+            s_map[s[ind]] = ind + 1;  // Ind + 1 and not ind as 0 means unmarked.
             t_map[t[ind]] = ind + 1;
         }
         
