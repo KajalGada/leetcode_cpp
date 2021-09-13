@@ -11,3 +11,10 @@ Difference between sol1 and sol2 is how I compute max.
 ```
 int max_candies = *max_element(candies.begin(), candies.end()); 
 ```
+
+OR
+
+```
+auto max_candies_itr = max_element(candies.begin(), candies.end());
+int max_candies = candies[distance(candies.begin(), max_candies_itr)];
+```
