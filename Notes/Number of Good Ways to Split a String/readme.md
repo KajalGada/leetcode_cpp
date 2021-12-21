@@ -1,6 +1,6 @@
 + Count num of different characters from left to right
 + Eg: aabc -> [1, 1, 2, 3]
-+ This says if we just have string "a" it is 1 different characters. "aa" has 2, "aab" has 3.
++ This says if we just have string "a" it is 1 different characters. "aa" has 1, "aab" has 2.
 + To keep count of occurance of each character, we use hash map.
 
 + Then count num of different characters from right to left
