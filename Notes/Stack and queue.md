@@ -1,5 +1,8 @@
 Queue
 
+Helpful links:
+https://dev.to/michaelarn0ld/c-data-structures-stacks-queues-sets-and-maps-28ap
+
 Queue is first in first out (FIFO).
 
 To create a queue
