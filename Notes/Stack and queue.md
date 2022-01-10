@@ -56,3 +56,14 @@ std::cout << q.back();
 
 
 ```
+
+Convert vector to queue
+```
+vector<int> v = {1, 2, 3};
+queue<int> q;
+
+for (const int &e: v)
+{
+  q.push(e);
+}
+```
