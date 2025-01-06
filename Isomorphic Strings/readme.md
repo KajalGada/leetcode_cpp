@@ -27,3 +27,4 @@ Solution:
 + Because we are mapping letters to numbers.
 + Any letter seen before should have same number.
 + If either letter from any words is seen before, it will have a different number.
++ Num of valid ascii values = 256
