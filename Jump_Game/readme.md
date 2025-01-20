@@ -1,4 +1,4 @@
-Sliding window approach.
+Sliding window approach [Sol 2].
 
 You start at index 0 and you current range is index 0 to index 0.
 
